@@ -14,5 +14,6 @@ FROM node:14.0.0-alpine3.11 as final
 WORKDIR /app
 
 COPY --from=publish /app/ /app/
+RUN ls
 
 CMD ["yarn", "start"]
