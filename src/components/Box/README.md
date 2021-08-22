@@ -3,7 +3,7 @@
 #### Margin
 
 ```tsx
-import { Box } from "@fundoo/ui";
+import { Box } from "lms-ui";
 
 const paperStyle = {
   padding: "16px",
@@ -20,7 +20,7 @@ const paperStyle = {
 #### Padding
 
 ```tsx
-import { Box } from "@fundoo/ui";
+import { Box } from "lms-ui";
 
 const paperStyle = {
   padding: "16px",
@@ -37,7 +37,7 @@ const paperStyle = {
 ### Advanced usage
 
 ```tsx
-import { Box, Grid } from "@fundoo/ui";
+import { Box, Grid } from "lms-ui";
 
 const paperStyle = {
   padding: "16px",
@@ -92,7 +92,7 @@ const paperStyle = {
 ### Use with breakpoint
 
 ```tsx
-import { Box } from "@fundoo/ui";
+import { Box } from "lms-ui";
 
 const paperStyle = {
   padding: "16px",
@@ -131,7 +131,7 @@ As you know, Grid has limitation with negative margin. In that case, we can use 
 ```
 
 ```tsx
-import { Box, Grid } from "@fundoo/ui";
+import { Box, Grid } from "lms-ui";
 
 const paperStyle = {
   padding: "16px",

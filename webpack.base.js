@@ -74,7 +74,7 @@ module.exports = options => {
     output: {
       path: outputDir,
       filename: '[name].js',
-      library: '@fundoo/ui',
+      library: 'lms-ui',
       libraryTarget: 'umd',
       umdNamedDefine: true,
       ...output
@@ -192,8 +192,8 @@ module.exports = options => {
       ...(options.resolve && options.resolve),
       alias: {
         '@App': path.resolve(__dirname, 'src/'),
-        '@fundoo/ui': path.resolve(__dirname, 'src/'),
-        '@fundoo/ui/hooks': path.resolve(__dirname, 'src/utils/hooks/')
+        'lms-ui': path.resolve(__dirname, 'src/'),
+        'lms-ui/hooks': path.resolve(__dirname, 'src/utils/hooks/')
       },
       modules: ['node_modules', 'src'],
       extensions: ['.js', '.jsx', '.ts', '.tsx']

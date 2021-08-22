@@ -7,7 +7,7 @@ import {
   Checkbox,
   CheckboxGroup,
   useCheckbox,
-} from '@fundoo/ui';
+} from 'lms-ui';
 
 const options = ['Angular', 'React.JS', 'Vue.JS', 'SvelteJS'];
 
@@ -32,7 +32,7 @@ import {
   Checkbox,
   CheckboxGroup,
   useCheckbox,
-} from '@fundoo/ui';
+} from 'lms-ui';
 
 const options = ['Angular', 'React.JS', 'Vue.JS', 'SvelteJS'];
 
@@ -57,7 +57,7 @@ import {
   Checkbox,
   CheckboxGroup,
   useCheckbox,
-} from '@fundoo/ui';
+} from 'lms-ui';
 
 const options = ['Angular', 'React.JS', 'Vue.JS', 'SvelteJS'];
 
@@ -87,7 +87,7 @@ import {
   Checkbox,
   CheckboxGroup,
   useCheckbox,
-} from '@fundoo/ui';
+} from 'lms-ui';
 
 const options = ['Angular', 'React.JS', 'Vue.JS', 'SvelteJS'];
 
@@ -129,7 +129,7 @@ const contentOfOptions = options.map((value, idx) => (
 ### Custom
 
 ```jsx
-import useCheckbox from '@fundoo/ui/utils/hooks/useCheckbox';
+import useCheckbox from 'lms-ui/utils/hooks/useCheckbox';
 
 const options = ['Angular', 'React.JS', 'Vue.JS', 'SvelteJS'];
 

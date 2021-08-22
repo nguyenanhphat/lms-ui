@@ -46,7 +46,7 @@ const StyleGuideRenderer = ({
             className={styles.title}
             type={TypoTypes.invert}
           >
-            Fundoo UI Components
+            LMS UI Components
           </Typography>
           <Typography
             variant={TypoSizes.caption}

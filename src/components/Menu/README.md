@@ -1,7 +1,7 @@
 ### Simple menu
 
 ```jsx
-import { Button, Menu, MenuItem } from '@fundoo/ui';
+import { Button, Menu, MenuItem } from 'lms-ui';
 
 const ref = React.useRef();
 const [open, toggle] = React.useState();

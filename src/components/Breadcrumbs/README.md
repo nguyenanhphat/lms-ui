@@ -1,7 +1,7 @@
 ### Basic
 
 ```jsx
-import { Typography, Breadcrumbs } from "@fundoo/ui";
+import { Typography, Breadcrumbs } from "lms-ui";
 
 <Breadcrumbs separator="-">
   <Typography>Trang chủ</Typography>
@@ -14,7 +14,7 @@ import { Typography, Breadcrumbs } from "@fundoo/ui";
 
 ```jsx
 import RightArrowBreadcrumb from "lms-icons/components/RightArrowBreadcrumb";
-import { Typography, TypoTypes, Breadcrumbs } from "@fundoo/ui";
+import { Typography, TypoTypes, Breadcrumbs } from "lms-ui";
 
 <Breadcrumbs
   separator={

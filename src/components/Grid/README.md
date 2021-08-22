@@ -59,7 +59,7 @@ If you are new to or unfamiliar with flexbox, we encourage you to read this [CSS
 Design margins and columns follow an 4px square baseline grid. The spacing property is an integer between 0 and 12 inclusive. By default, the spacing between two grid items follows a linear function: output(spacing) = spacing * 4px, e.g. spacing={2} creates a 8px wide gap.
 
 ```tsx
-import { Grid, Paper, Radio, RadioGroup, Typography, TypoSizes, TypoWeights, useRadio } from '@fundoo/ui';
+import { Grid, Paper, Radio, RadioGroup, Typography, TypoSizes, TypoWeights, useRadio } from 'lms-ui';
 
 const { selected: spacing, onChange } = useRadio(2);
 
@@ -119,7 +119,7 @@ Fluid grids use columns that scale and resize content. A fluid grid’s layout c
 The column widths apply at all breakpoints (i.e. xs and up).
 
 ```tsx
-import { Grid, Paper } from '@fundoo/ui';
+import { Grid, Paper } from 'lms-ui';
 
 const paperStyle = {
   padding: '16px',
@@ -156,7 +156,7 @@ const paperStyle = {
 Some columns have multiple widths defined, causing the layout to change at the defined breakpoint.
 
 ```tsx
-import { Grid, Paper } from '@fundoo/ui';
+import { Grid, Paper } from 'lms-ui';
 
 const paperStyle = {
   padding: '16px',
@@ -193,7 +193,7 @@ const paperStyle = {
 The Auto-layout makes the items equitably share the available space. That also means you can set the width of one item and the others will automatically resize around it.
 
 ```tsx
-import { Grid, Paper } from '@fundoo/ui';
+import { Grid, Paper } from 'lms-ui';
 
 const paperStyle = {
   padding: '16px',
@@ -231,7 +231,7 @@ const paperStyle = {
 To size columns based on the natural width of their content.
 
 ```tsx
-import { Grid, Paper } from '@fundoo/ui';
+import { Grid, Paper } from 'lms-ui';
 
 const paperStyle = {
   padding: '16px',
@@ -269,7 +269,7 @@ const paperStyle = {
 The `container` and `item` properties are two independent booleans. They can be combined.
 
 ```tsx
-import { Grid, Paper } from '@fundoo/ui';
+import { Grid, Paper } from 'lms-ui';
 
 const paperStyle = {
   padding: '16px',

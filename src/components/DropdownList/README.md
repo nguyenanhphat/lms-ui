@@ -3,7 +3,7 @@
 ### Simple DropdownList
 
 ```jsx
-import { DropdownList, Option } from "@fundoo/ui";
+import { DropdownList, Option } from "lms-ui";
 
 const hobbies = ["Coding", "Reading book", "Playing game"];
 const [value, setValue] = React.useState(hobbies[0]);
@@ -24,7 +24,7 @@ const [value, setValue] = React.useState(hobbies[0]);
 - Note: the placeholder work with value of DropdownList is `undefined` or `null`.
 
 ```jsx
-import { DropdownList, Option } from "@fundoo/ui";
+import { DropdownList, Option } from "lms-ui";
 
 const hobbies = ["Coding", "Reading book", "Playing game"];
 const [value, setValue] = React.useState();
@@ -41,7 +41,7 @@ const [value, setValue] = React.useState();
 #### Disabled
 
 ```jsx
-import { DropdownList, Option } from "@fundoo/ui";
+import { DropdownList, Option } from "lms-ui";
 
 const hobbies = ["Coding", "Reading book", "Playing game"];
 const [value, setValue] = React.useState(hobbies[0]);
@@ -58,7 +58,7 @@ const [value, setValue] = React.useState(hobbies[0]);
 ### Custom style
 
 ```jsx
-import { DropdownList, Option } from "@fundoo/ui";
+import { DropdownList, Option } from "lms-ui";
 import styles from "./styles.module.scss";
 
 const hobbies = ["Coding", "Reading book", "Playing game", "Cooking"];
@@ -84,7 +84,7 @@ const [value, setValue] = React.useState(hobbies[0]);
 - The events includes: `onChange`, `onClick`, `onFocus`, `onBlur`.
 
 ```jsx
-import { DropdownList, Option } from "@fundoo/ui";
+import { DropdownList, Option } from "lms-ui";
 
 const hobbies = ["Coding", "Reading book", "Playing game"];
 const [value, setValue] = React.useState(hobbies[0]);
@@ -121,7 +121,7 @@ const handleBlur = (event) => {
 #### Primary
 
 ```jsx
-import { DropdownList, Option, InputColors } from "@fundoo/ui";
+import { DropdownList, Option, InputColors } from "lms-ui";
 
 const hobbies = ["Coding", "Reading book", "Playing game"];
 const [value, setValue] = React.useState(hobbies[0]);
@@ -138,7 +138,7 @@ const [value, setValue] = React.useState(hobbies[0]);
 #### Success
 
 ```jsx
-import { DropdownList, Option, InputColors } from "@fundoo/ui";
+import { DropdownList, Option, InputColors } from "lms-ui";
 
 const hobbies = ["Coding", "Reading book", "Playing game"];
 const [value, setValue] = React.useState(hobbies[0]);
@@ -155,7 +155,7 @@ const [value, setValue] = React.useState(hobbies[0]);
 #### Warning
 
 ```jsx
-import { DropdownList, Option, InputColors } from "@fundoo/ui";
+import { DropdownList, Option, InputColors } from "lms-ui";
 
 const hobbies = ["Coding", "Reading book", "Playing game"];
 const [value, setValue] = React.useState(hobbies[0]);
@@ -172,7 +172,7 @@ const [value, setValue] = React.useState(hobbies[0]);
 #### Error
 
 ```jsx
-import { DropdownList, Option, InputColors } from "@fundoo/ui";
+import { DropdownList, Option, InputColors } from "lms-ui";
 
 const hobbies = ["Coding", "Reading book", "Playing game"];
 const [value, setValue] = React.useState(hobbies[0]);
@@ -191,7 +191,7 @@ const [value, setValue] = React.useState(hobbies[0]);
 #### Extra small
 
 ```jsx
-import { DropdownList, Option, InputSizes } from "@fundoo/ui";
+import { DropdownList, Option, InputSizes } from "lms-ui";
 
 const hobbies = ["Coding", "Reading book", "Playing game"];
 const [value, setValue] = React.useState(hobbies[0]);
@@ -208,7 +208,7 @@ const [value, setValue] = React.useState(hobbies[0]);
 #### Small
 
 ```jsx
-import { DropdownList, Option, InputSizes } from "@fundoo/ui";
+import { DropdownList, Option, InputSizes } from "lms-ui";
 
 const hobbies = ["Coding", "Reading book", "Playing game"];
 const [value, setValue] = React.useState(hobbies[0]);
@@ -225,7 +225,7 @@ const [value, setValue] = React.useState(hobbies[0]);
 #### Medium
 
 ```jsx
-import { DropdownList, Option, InputSizes } from "@fundoo/ui";
+import { DropdownList, Option, InputSizes } from "lms-ui";
 
 const hobbies = ["Coding", "Reading book", "Playing game"];
 const [value, setValue] = React.useState(hobbies[0]);
@@ -244,7 +244,7 @@ const [value, setValue] = React.useState(hobbies[0]);
 - The large size is default.
 
 ```jsx
-import { DropdownList, Option, InputSizes } from "@fundoo/ui";
+import { DropdownList, Option, InputSizes } from "lms-ui";
 
 const hobbies = ["Coding", "Reading book", "Playing game"];
 const [value, setValue] = React.useState(hobbies[0]);
@@ -261,7 +261,7 @@ const [value, setValue] = React.useState(hobbies[0]);
 ### Custom before input
 
 ```jsx
-import { DropdownList, Option, InputAdornment } from "@fundoo/ui";
+import { DropdownList, Option, InputAdornment } from "lms-ui";
 import Bell from "lms-icons/components/Bell";
 
 const hobbies = ["Coding", "Reading book", "Playing game"];

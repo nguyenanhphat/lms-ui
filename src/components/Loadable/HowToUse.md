@@ -1,4 +1,4 @@
-import { Loadable } from '@fundoo/ui';
+import { Loadable } from 'lms-ui';
 
 <!-- Condition: [innerRef] is required from react-waypoint -->
 const LoadingComponent = ({ innerRef }) => {

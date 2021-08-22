@@ -1,7 +1,7 @@
 ### Simple tooltip
 
 ```jsx
-import { Button, Tooltip } from '@fundoo/ui';
+import { Button, Tooltip } from 'lms-ui';
 
 <div>
   <Tooltip content="Show Fullscreen">
@@ -18,7 +18,7 @@ import {
   Grid,
   PopperPlacements,
   Tooltip,
-} from '@fundoo/ui';
+} from 'lms-ui';
 
 <div>
   <Grid container spacing={6} justifyContent="center">
@@ -104,7 +104,7 @@ import {
 ### Show tooltip after x milliseconds
 
 ```jsx
-import { Button, Tooltip } from '@fundoo/ui';
+import { Button, Tooltip } from 'lms-ui';
 
 <div>
   <Tooltip content="Delay tooltip" enterDelay={1 * 1000}>
@@ -116,7 +116,7 @@ import { Button, Tooltip } from '@fundoo/ui';
 ### Hide tooltip after x milliseconds
 
 ```jsx
-import { Button, Tooltip } from '@fundoo/ui';
+import { Button, Tooltip } from 'lms-ui';
 
 <div>
   <Tooltip content="Delay tooltip" leaveDelay={1 * 1000}>

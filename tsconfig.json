@@ -38,7 +38,7 @@
     "noImplicitThis": false,
     "paths": {
       "@App/*": ["./*"],
-      "@fundoo/ui": ["./src/*"]
+      "lms-ui": ["./src/*"]
     }
   },
   "include": ["src/**/*"],

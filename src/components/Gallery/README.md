@@ -1,5 +1,5 @@
 ```jsx
-  import { Paper, PaperRadius } from '@fundoo/ui';
+  import { Paper, PaperRadius } from 'lms-ui';
   import styles from './styles.module.scss';
 
   const images = [

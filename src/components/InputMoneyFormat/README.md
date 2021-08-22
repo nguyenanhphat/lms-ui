@@ -1,7 +1,7 @@
 ### Simple input
 
 ```jsx
-import { Input, InputMoneyFormat } from '@fundoo/ui';
+import { Input, InputMoneyFormat } from 'lms-ui';
 
 <Input
   component={InputMoneyFormat}
@@ -17,7 +17,7 @@ import {
   Grid,
   Input,
   InputMoneyFormat,
-} from '@fundoo/ui';
+} from 'lms-ui';
 
 <Grid container spacing={6}>
   <Grid item md={4}>
@@ -42,7 +42,7 @@ import {
 ### Custom decimal separator
 
 ```jsx
-import { Input, InputMoneyFormat } from '@fundoo/ui';
+import { Input, InputMoneyFormat } from 'lms-ui';
 
 <Input
   component={InputMoneyFormat}
@@ -55,7 +55,7 @@ import { Input, InputMoneyFormat } from '@fundoo/ui';
 ### Custom thousand separator
 
 ```jsx
-import { Input, InputMoneyFormat } from '@fundoo/ui';
+import { Input, InputMoneyFormat } from 'lms-ui';
 
 <Input
   component={InputMoneyFormat}

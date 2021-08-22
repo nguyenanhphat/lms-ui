@@ -1,7 +1,7 @@
 ### Simple rating
 
 ```jsx
-import { Spinner } from '@fundoo/ui';
+import { Spinner } from 'lms-ui';
 
 <Paper style={paperStyle}>
   <Box py={2}>

@@ -11,7 +11,7 @@ import {
   TableFooter,
   TableHeader,
   TableRow,
-} from '@fundoo/ui';
+} from 'lms-ui';
 
 const cellStyle = {
   padding: '1.2rem',
@@ -81,7 +81,7 @@ import {
   TableCell,
   TableHeader,
   TableRow,
-} from '@fundoo/ui';
+} from 'lms-ui';
 
 const cellStyle = {
   padding: '1.2rem',
@@ -117,7 +117,7 @@ import {
   TableFooter,
   TableHeader,
   TableRow,
-} from '@fundoo/ui';
+} from 'lms-ui';
 
 const tableCellHeader = [
   {
@@ -338,7 +338,7 @@ import {
   TableCell,
   TableHeader,
   TableRow,
-} from '@fundoo/ui';
+} from 'lms-ui';
 
 const tableCellHeader = [
   {

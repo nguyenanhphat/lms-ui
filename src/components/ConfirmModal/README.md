@@ -1,6 +1,6 @@
 ```jsx
 
-import { ConfirmModal, useConfirmModal, Typography } from '@fundoo/ui';
+import { ConfirmModal, useConfirmModal, Typography } from 'lms-ui';
 
 const { isOpen, open, close, confirm } = useConfirmModal();
 

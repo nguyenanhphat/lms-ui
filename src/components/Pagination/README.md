@@ -3,7 +3,7 @@
 ### Simple Pagination
 
 ```jsx
-import { Pagination } from "@fundoo/ui";
+import { Pagination } from "lms-ui";
 
 const [currentPage, setCurrentPage] = React.useState(1);
 
@@ -13,7 +13,7 @@ const [currentPage, setCurrentPage] = React.useState(1);
 ### Set range page display ( default: 5 )
 
 ```jsx
-import { Pagination } from "@fundoo/ui";
+import { Pagination } from "lms-ui";
 
 const [currentPage, setCurrentPage] = React.useState(1);
 

@@ -162,10 +162,6 @@
   "directories": {
     "doc": "docs"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://git-codecommit.ap-southeast-1.amazonaws.com/v1/repos/fundoo-ui"
-  },
   "keywords": [],
   "author": "",
   "description": ""

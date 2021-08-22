@@ -9,7 +9,7 @@ import {
   ListItemIcon,
   ListItemText,
   Paper,
-} from "@fundoo/ui";
+} from "lms-ui";
 
 <Grid container spacing={6}>
   <Grid item md={3}>
@@ -46,7 +46,7 @@ import {
   ListItem,
   ListItemText,
   Paper,
-} from "@fundoo/ui";
+} from "lms-ui";
 
 const [isOpen, toggleList] = React.useState(false);
 
@@ -90,7 +90,7 @@ import {
   ListItemText,
   Paper,
   Typography,
-} from "@fundoo/ui";
+} from "lms-ui";
 
 import RightArrowV4 from "lms-icons/components/RightArrowV4";
 
@@ -206,7 +206,7 @@ import {
   ListItemText,
   Paper,
   Typography,
-} from "@fundoo/ui";
+} from "lms-ui";
 
 <Grid container spacing={6}>
   <Grid item md={3} container spacing={4} direction="column">
@@ -300,7 +300,7 @@ import {
   ListItemAction,
   ListItemText,
   Paper,
-} from "@fundoo/ui";
+} from "lms-ui";
 
 import RightArrowV4 from "lms-icons/components/RightArrowV4";
 
@@ -336,7 +336,7 @@ const handleChecked = (key) => {
 ### Inset list
 
 ```jsx
-import { Grid, List, ListItem, ListItemText, Paper } from "@fundoo/ui";
+import { Grid, List, ListItem, ListItemText, Paper } from "lms-ui";
 
 <Grid container spacing={6}>
   <Grid item md={3}>

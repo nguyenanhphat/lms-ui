@@ -3,7 +3,7 @@ References: https://popper.js.org/docs/v2/
 ### Simple Popover
 
 ```jsx
-import { Button, Popover } from '@fundoo/ui';
+import { Button, Popover } from 'lms-ui';
 
 const [showPopover, togglePopover] = React.useState(false);
 const anchorRef = React.useRef(null);
@@ -46,7 +46,7 @@ import {
   Button,
   Popover,
   PopperPlacements,
-} from '@fundoo/ui';
+} from 'lms-ui';
 
 const [showPopover, togglePopover] = React.useState(false);
 const [backdrop, setBackdrop] = React.useState(BackdropTypes.grey);
@@ -98,7 +98,7 @@ import {
   Grid,
   Popover,
   PopperPlacements,
-} from '@fundoo/ui';
+} from 'lms-ui';
 
 const [showPopover, togglePopover] = React.useState(false);
 const [placement, setPopoverPlacement] = React.useState(null);

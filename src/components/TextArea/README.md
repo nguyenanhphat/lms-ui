@@ -1,7 +1,7 @@
 ### Basic usage
 
 ```jsx
-import { TextArea } from '@fundoo/ui';
+import { TextArea } from 'lms-ui';
 
 <TextArea placeholder="Simple TextArea" />
 ```
@@ -12,7 +12,7 @@ import {
   Grid,
   TextArea,
   Typography,
-} from '@fundoo/ui';
+} from 'lms-ui';
 
 <Grid container spacing={6}>
   <Grid
@@ -117,7 +117,7 @@ import {
   Grid,
   InputColors,
   TextArea,
-} from '@fundoo/ui';
+} from 'lms-ui';
 
 <Grid container spacing={6}>
   <Grid
@@ -201,7 +201,7 @@ import {
   Grid,
   InputSizes,
   TextArea,
-} from '@fundoo/ui';
+} from 'lms-ui';
 
 <Grid container spacing={6}>
   <Grid

@@ -3,7 +3,7 @@
 ```jsx
 
 import { SwiperSlide } from 'swiper/react';
-import { Swiper } from '@fundoo/ui';
+import { Swiper } from 'lms-ui';
 
 <Swiper
   slidesPerView={2.5}

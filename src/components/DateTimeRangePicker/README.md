@@ -198,7 +198,7 @@ const handlePreviewChange = range => {
 #### Extra small
 
 ```jsx
-import { InputSizes } from '@fundoo/ui';
+import { InputSizes } from 'lms-ui';
 
 const [selectionRange, setSelectionRange] = React.useState({
   startDate: null,
@@ -215,7 +215,7 @@ const [selectionRange, setSelectionRange] = React.useState({
 #### Small
 
 ```jsx
-import { InputSizes } from '@fundoo/ui';
+import { InputSizes } from 'lms-ui';
 
 const [selectionRange, setSelectionRange] = React.useState({
   startDate: null,
@@ -232,7 +232,7 @@ const [selectionRange, setSelectionRange] = React.useState({
 #### Medium
 
 ```jsx
-import { InputSizes } from '@fundoo/ui';
+import { InputSizes } from 'lms-ui';
 
 const [selectionRange, setSelectionRange] = React.useState({
   startDate: null,
@@ -249,7 +249,7 @@ const [selectionRange, setSelectionRange] = React.useState({
 #### Large
 
 ```jsx
-import { InputSizes } from '@fundoo/ui';
+import { InputSizes } from 'lms-ui';
 
 const [selectionRange, setSelectionRange] = React.useState({
   startDate: null,
