@@ -1,7 +1,7 @@
 FROM node:14 as node-build
 ARG ENV_FILE=.env.example
 WORKDIR /app
-COPY ./package.json ./.npmrc yarn.lock ./
+COPY ./package.json yarn.lock ./
 RUN yarn install
 
 COPY ./ ./
