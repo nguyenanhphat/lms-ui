@@ -13,7 +13,6 @@ FROM node-build as publish
 FROM node:14.0.0-alpine3.11 as final
 WORKDIR /app
 
-COPY --from=publish /app/styleguide /app/styleguide
-RUN ls
+COPY --from=publish /app/ /app/
 
 CMD ["yarn", "start"]
