@@ -8241,10 +8241,10 @@ little-state-machine@3.1.3:
   resolved "https://registry.yarnpkg.com/little-state-machine/-/little-state-machine-3.1.3.tgz#2faca935000c0bc21528e829fa729eb9bf38bfbc"
   integrity sha512-n3NAcFSFJl5eoOzoNxNYE6Xa3Y9/ln9068myXW8H81cClGiD4umQUDpXvjQzCjXZ0iO7IuxFNsjpMVdYTad17w==
 
-lms-icons@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/lms-icons/-/lms-icons-1.0.6.tgz#2870678ca8c78fe95f9e136ca1544d4195fa033d"
-  integrity sha512-+qtT6WVL4pvGuym+ZXVCbr4Ts2vS3ud1FE0cIKKGzfCJh8mPeJqi0qXSa6SelQWDN8xi6zGCs2+/Kh1ybaUlUA==
+lms-icons@1.0.7:
+  version "1.0.7"
+  resolved "https://fundoo-627141712431.d.codeartifact.ap-southeast-1.amazonaws.com:443/npm/fundoo-npm/lms-icons/-/lms-icons-1.0.7.tgz#02f5eb6466014fe76dd7f31629c690fe9f958367"
+  integrity sha512-kVx30z1gYHKaqngHJmrgeGomjHa4LKVuQ2GZeRm2TPvxXlJ7txzcfZvKMTRl9ZXpytEpvOUFvjw9DkNPK8YEtw==
 
 load-json-file@^1.0.0:
   version "1.1.0"

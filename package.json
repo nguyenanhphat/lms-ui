@@ -55,7 +55,7 @@
     "jest-watch-typeahead": "0.4.2",
     "less-to-json-loader": "1.1.0",
     "little-state-machine": "3.1.3",
-    "lms-icons": "^1.0.6",
+    "lms-icons": "1.0.7",
     "lodash": "4.17.15",
     "lodash-es": "4.17.15",
     "mini-css-extract-plugin": "^1.3.2",
