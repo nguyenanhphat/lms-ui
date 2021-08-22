@@ -1,2 +1,18 @@
-FROM nginx:alpine
-COPY . /usr/share/nginx/html
+FROM node:14 as node-build
+ARG ENV_FILE=.env.example
+WORKDIR /app
+COPY ./package.json ./.npmrc yarn.lock ./
+RUN yarn install
+
+COPY ./ ./
+COPY ./$ENV_FILE ./.env
+RUN yarn docs:build
+
+FROM node-build as publish
+
+FROM node:14.0.0-alpine3.11 as final
+WORKDIR /app
+
+COPY --from=publish /app/ /app/
+
+CMD ["yarn", "start"]
