@@ -2,7 +2,7 @@ FROM node:14 as node-build
 ARG ENV_FILE=.env.example
 WORKDIR /app
 COPY ./package.json yarn.lock ./
-# RUN yarn install
+RUN yarn install
 
 COPY ./ ./
 COPY ./$ENV_FILE ./.env
