@@ -67,6 +67,5 @@ exports.RadioGroup = react_1.forwardRef(function (props, ref) {
         <Context_1.default.Provider value={context}>{children}</Context_1.default.Provider>
       </Component>);
 });
-exports.RadioGroup.displayName = 'RadioGroup';
 exports.default = exports.RadioGroup;
 //# sourceMappingURL=index.jsx.map

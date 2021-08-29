@@ -30,6 +30,5 @@ export const RadioGroup = forwardRef((props, ref) => {
         <Context.Provider value={context}>{children}</Context.Provider>
       </Component>);
 });
-RadioGroup.displayName = 'RadioGroup';
 export default RadioGroup;
 //# sourceMappingURL=index.jsx.map

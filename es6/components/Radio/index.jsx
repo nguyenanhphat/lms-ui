@@ -47,6 +47,5 @@ export const Radio = forwardRef((props, ref) => {
       <Input readOnly type="radio" ref={refOfInput} name={checkboxName} value={value} className={styles.input} checked={isChecked} onChange={onChangeComposed}/>
     </Component>);
 });
-Radio.displayName = "Radio";
 export default Radio;
 //# sourceMappingURL=index.jsx.map

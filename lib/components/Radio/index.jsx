@@ -87,6 +87,5 @@ exports.Radio = react_1.forwardRef(function (props, ref) {
       <Input_1.default readOnly type="radio" ref={refOfInput} name={checkboxName} value={value} className={styles_module_scss_1.default.input} checked={isChecked} onChange={onChangeComposed}/>
     </Component>);
 });
-exports.Radio.displayName = "Radio";
 exports.default = exports.Radio;
 //# sourceMappingURL=index.jsx.map
