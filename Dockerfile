@@ -6,7 +6,7 @@ RUN yarn install
 
 COPY ./ ./
 COPY ./$ENV_FILE ./.env
-# RUN yarn docs:build
+RUN yarn docs:build
 
 FROM node-build as publish
 
