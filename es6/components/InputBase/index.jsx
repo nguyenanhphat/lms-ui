@@ -9,14 +9,14 @@ var __rest = (this && this.__rest) || function (s, e) {
         }
     return t;
 };
-import React, { forwardRef } from 'react';
+import React, { forwardRef } from "react";
 const defaultProps = {
-    component: 'input'
+    component: "input",
 };
 export const InputBase = forwardRef((props, ref) => {
     const _a = Object.assign(Object.assign({}, defaultProps), props), { component: Component } = _a, rest = __rest(_a, ["component"]);
     return <Component {...rest} ref={ref}/>;
 });
-InputBase.displayName = 'InputBase';
+InputBase.displayName = "InputBase";
 export default InputBase;
 //# sourceMappingURL=index.jsx.map

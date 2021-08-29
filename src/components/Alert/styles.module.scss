@@ -4,7 +4,10 @@
   padding: .8rem;
 }
 
-$alert-colors: (('alert' $color-red-500 $color-white), ('highlight' $color-request $color-default));
+$alert-colors: (
+  ('alert' $color-error $color-white), 
+  ('highlight' $color-warning $color-default)
+);
 
 @each $name, $bg, $color in $alert-colors {
   .type-#{$name} {

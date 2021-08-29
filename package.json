@@ -1,6 +1,6 @@
 {
   "name": "lms-ui",
-  "version": "1.0.15",
+  "version": "1.0.17",
   "main": "dist/index.js",
   "license": "UNLICENSED",
   "files": [

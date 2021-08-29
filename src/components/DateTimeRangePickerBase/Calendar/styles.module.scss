@@ -16,7 +16,7 @@
 
 .dateDisplayItem {
   width: calc(50% - 0.8rem);
-  color: $color-grey-700;
+  color: $color-gray-lv-2;
 
   > div > div {
     background-color: $color-white !important;
@@ -89,7 +89,7 @@
 
 .monthName {
   padding: spacing(1) spacing(3);
-  color: $color-grey-700;
+  color: $color-gray-lv-2;
 }
 
 .weekDays {
@@ -103,7 +103,7 @@
   text-align: center;
   font-weight: $font-weight-bold;
   line-height: 4rem;
-  color: $color-grey-700;
+  color: $color-gray-lv-2;
   text-transform: capitalize;
 }
 
@@ -133,7 +133,7 @@
   line-height: 4rem;
   height: 4rem;
   text-align: center;
-  color: $color-grey-700;
+  color: $color-gray-lv-2;
   &:focus {
     outline: 0;
   }
@@ -172,16 +172,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: $color-grey-700;
+  color: $color-gray-lv-2;
 }
 
 .dayDisabled {
   cursor: not-allowed;
   background-color: $color-white;
   .dayNumber span {
-    color: $color-grey-200;
+    color: $color-gray-lv-3;
     &:after {
-      background: $color-grey-200;
+      background: $color-gray-lv-3;
     }
   }
   .inRange,
@@ -267,9 +267,9 @@
   }
 }
 .dayToday.dayDisabled .dayNumber span {
-  color: $color-grey-200;
+  color: $color-gray-lv-3;
   &:after {
-    background: $color-grey-200;
+    background: $color-gray-lv-3;
   }
 }
 
@@ -356,7 +356,7 @@
 }
 
 .dateRangeResult {
-  color: $color-grey-700;
+  color: $color-gray-lv-2;
   font-weight: $font-weight-bold;
   font-size: $font-size-caption;
   margin-left: spacing(4);
@@ -381,7 +381,7 @@
   div {
     span {
       font-weight: $font-weight-bold;
-      color: $color-grey-700 !important;
+      color: $color-gray-lv-2 !important;
     }
   }
 }

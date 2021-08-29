@@ -9,22 +9,28 @@ $sizes: (('lg', 3, 4), ('md', 2, 4), ('sm', 2, 2), ('xs', 1.5, 2));
   name, border-color, background-color, color, hover-border-color.
 */
 $colors: (
-  ('primary', $color-grey-100, $color-white, $color-default, $color-grey-200),
+  ('primary', $color-primary, $color-white, $color-default, $color-gray-lv-3),
   (
     'success',
-    $color-green-300,
-    $color-green-50,
-    $color-green-700,
-    $color-green-400
+    $color-success-lighter,
+    $color-success-lightest,
+    $color-success,
+    $color-success-light
   ),
   (
     'warning',
-    $color-orange-300,
-    $color-orange-50,
-    $color-orange-700,
-    $color-orange-400
+    $color-warning-lighter,
+    $color-warning-lightest,
+    $color-warning,
+    $color-warning-light
   ),
-  ('error', $color-red-300, $color-red-50, $color-red-700, $color-red-400)
+  (
+    'error', 
+    $color-error-lighter,
+    $color-error-lightest,
+    $color-error,
+    $color-error-light
+  )
 );
 
 @each $name, $border-color, $background-color, $text-color,
@@ -64,15 +70,15 @@ $colors: (
   pointer-events: none;
 }
 .placeholder {
-  color: $color-grey-200;
+  color: $color-gray-lv-3;
   transition: color 0.1s ease;
   &:hover {
-    color: $color-grey-700;
+    color: $color-gray-lv-2;
   }
 }
 
 .icon {
-  fill: $color-grey-500;
+  fill: $color-gray-lv-2;
 }
 
 /**
@@ -107,6 +113,6 @@ $label-sizes: (
 
 .input:not(.is-open) {
   .label-text {
-    color: $color-grey-500;
+    color: $color-gray-lv-2;
   }
 }

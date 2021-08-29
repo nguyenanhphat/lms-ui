@@ -5,6 +5,14 @@
 <Grid container>
   <Grid container spacing={4}>
     <Grid item xs={2}>
+      <Radio checked />
+    </Grid>
+    <Grid item xs={2}>
+      <Radio checked={false} />
+    </Grid>
+  </Grid>
+  <Grid container spacing={4}>
+    <Grid item xs={2}>
       <Radio checked>Checked</Radio>
     </Grid>
     <Grid item xs={2}>

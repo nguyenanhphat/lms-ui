@@ -6,7 +6,7 @@
   border-radius: $radius-regular;
   min-width: fit-content;
   max-width: 300px;
-  background-color: $color-grey-900;
+  background-color: $color-black;
   color: $color-white;
   z-index: $tooltip-z-index;
 }
@@ -22,7 +22,7 @@
 .arrow::before {
   content: '';
   transform: rotate(45deg);
-  background: $color-grey-900;
+  background: $color-black;
 }
 
 .tooltip[data-popper-placement^='top'] > .arrow {

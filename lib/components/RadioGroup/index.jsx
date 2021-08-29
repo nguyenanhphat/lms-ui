@@ -44,34 +44,29 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.RadioGroup = exports.RadioGroupContext = void 0;
+exports.RadioGroup = exports.Context = void 0;
 var classnames_1 = __importDefault(require("classnames"));
 var react_1 = __importStar(require("react"));
-var RadioGroupContext_1 = __importDefault(require("./RadioGroupContext"));
-var styles_module_scss_1 = __importDefault(require("./styles.module.scss"));
-var RadioGroupContext_2 = require("./RadioGroupContext");
-Object.defineProperty(exports, "RadioGroupContext", { enumerable: true, get: function () { return __importDefault(RadioGroupContext_2).default; } });
+var Context_1 = __importDefault(require("./Context"));
+var Context_2 = require("./Context");
+Object.defineProperty(exports, "Context", { enumerable: true, get: function () { return __importDefault(Context_2).default; } });
 var defaultProps = {
     component: 'div',
-    disabled: false
+    disabled: false,
 };
 exports.RadioGroup = react_1.forwardRef(function (props, ref) {
-    var _a;
-    var _b = __assign(__assign({}, defaultProps), props), Component = _b.component, className = _b.className, name = _b.name, disabled = _b.disabled, selected = _b.selected, onChange = _b.onChange, children = _b.children, rest = __rest(_b, ["component", "className", "name", "disabled", "selected", "onChange", "children"]);
-    var classOfComponent = classnames_1.default(styles_module_scss_1.default.root, className, (_a = {},
-        _a[styles_module_scss_1.default.disabled] = disabled,
-        _a));
+    var _a = __assign(__assign({}, defaultProps), props), Component = _a.component, className = _a.className, name = _a.name, disabled = _a.disabled, selected = _a.selected, onChange = _a.onChange, children = _a.children, rest = __rest(_a, ["component", "className", "name", "disabled", "selected", "onChange", "children"]);
+    var classOfComponent = classnames_1.default(className);
     var context = {
         name: name,
         disabled: disabled,
         selected: selected,
-        onChange: onChange
+        onChange: onChange,
     };
     return (<Component {...rest} ref={ref} className={classOfComponent}>
-      <RadioGroupContext_1.default.Provider value={context}>
-        {children}
-      </RadioGroupContext_1.default.Provider>
-    </Component>);
+        <Context_1.default.Provider value={context}>{children}</Context_1.default.Provider>
+      </Component>);
 });
+exports.RadioGroup.displayName = 'RadioGroup';
 exports.default = exports.RadioGroup;
 //# sourceMappingURL=index.jsx.map

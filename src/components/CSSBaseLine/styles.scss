@@ -19,7 +19,7 @@ $font-weight-bolder: $font-weight-bold;
 // ========================================
 // Body variables
 // ========================================
-$body-color: $color-grey-900 !default;
+$body-color: $color-black !default;
 $body-bg: $color-grey-10 !default;
 $body-text-align: null !default;
 
@@ -27,7 +27,7 @@ $body-text-align: null !default;
 // Content grouping variables
 // ========================================
 $hr-margin-y: spacing(2);
-$hr-color: $color-grey-900;
+$hr-color: $color-black;
 $hr-opacity: 1;
 $hr-height: 1px;
 
@@ -423,7 +423,7 @@ main {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: $color-grey-100;
+  background: $color-primary;
   border-radius: 4px;
 }
 

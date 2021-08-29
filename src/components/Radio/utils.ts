@@ -1,13 +1,14 @@
-import RadioTick from "lms-icons/components/RadioTick";
-import RadioUntick from "lms-icons/components/RadioUntick";
-import { RadioTypes } from "./RadioTypes";
+import RadioSelect from 'lms-icons/components/RadioTick'
+import RadioUnselect from 'lms-icons/components/RadioUntick'
 
-const _getIcon = {
-  [RadioTypes.unchecked]: RadioUntick,
-  [RadioTypes.checked]: RadioTick,
-};
+import { RadioStatuses } from './types'
 
-export const getIconByStatus = (status: RadioTypes) => _getIcon[status];
+const mapOfIcons = {
+  [RadioStatuses.unchecked]: RadioUnselect,
+  [RadioStatuses.checked]: RadioSelect,
+}
+
+export const getIconByStatus = (status: RadioStatuses) => mapOfIcons[status]
 
 export const getStatusOfRadio = (checked: boolean) =>
-  !checked ? RadioTypes.unchecked : RadioTypes.checked;
+  !checked ? RadioStatuses.unchecked : RadioStatuses.checked

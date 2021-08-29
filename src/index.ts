@@ -88,7 +88,7 @@ export { default as Paper, PaperRadius } from './components/Paper';
 export { default as Popover, PopoverTriggers } from './components/Popover';
 export { default as Popper, PopperPlacements } from './components/Popper';
 export { default as Portal, PortalIds } from './components/Portal';
-export { default as Radio, RadioTypes } from './components/Radio';
+export { default as Radio, RadioStatuses } from './components/Radio';
 export { default as RadioGroup } from './components/RadioGroup';
 export { default as RangeDropdown } from './components/RangeDropdown';
 export { default as Rating } from './components/Rating';

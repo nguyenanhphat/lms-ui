@@ -7,8 +7,8 @@
   border-radius: 50%;
   cursor: pointer;
   &.default {
-    color: $color-tertiary;
-    border: 2px solid $color-grey-200;
+    color: $color-secondary;
+    border: 2px solid $color-gray-lv-3;
   }
   &.completed {
     color: $color-white;
