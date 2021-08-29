@@ -8,6 +8,6 @@ docker run -d --rm --name ${APP_NAME} \
   -e VIRTUAL_HOST="docs.learnhub.com.vn" \
   -e LETSENCRYPT_HOST="docs.learnhub.com.vn" \
   -e LETSENCRYPT_EMAIL="nghiepuit@gmail.com" \
-  -p 8080:8080 \
+  -p 9999:9999 \
   ${APP_NAME}
 
