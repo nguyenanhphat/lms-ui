@@ -2,7 +2,7 @@
 
 ```jsx
 
-import { TypoTypes, TypoSizes, NumberFormat, Typography } from '@fundoo/ui';
+import { TypoTypes, TypoSizes, NumberFormat, Typography } from 'lms-ui';
 
 <Grid container>
   <Grid item xs={6}>

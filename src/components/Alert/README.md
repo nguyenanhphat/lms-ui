@@ -3,7 +3,7 @@
 #### Warning
 
 ```jsx
-import { AlertTypes } from '@fundoo/ui';
+import { AlertTypes } from 'lms-ui';
 
 <Alert type={AlertTypes.Warning}>Warning! Input your text</Alert>
 ```
@@ -11,7 +11,7 @@ import { AlertTypes } from '@fundoo/ui';
 #### Error
 
 ```jsx
-import { AlertTypes } from '@fundoo/ui';
+import { AlertTypes } from 'lms-ui';
 
 <Alert type={AlertTypes.Error}>Error! Input your text</Alert>
 ```

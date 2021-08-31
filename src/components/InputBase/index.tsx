@@ -1,4 +1,4 @@
-import React, { forwardRef } from 'react';
+import React, { forwardRef } from "react";
 
 type InputBaseProps = {
   component: React.ElementType;
@@ -9,17 +9,17 @@ interface InputBaseDefaultProps {
 }
 
 const defaultProps: InputBaseDefaultProps = {
-  component: 'input'
+  component: "input",
 };
 
 export const InputBase = forwardRef((props: InputBaseProps, ref: any) => {
   const { component: Component, ...rest } = {
     ...defaultProps,
-    ...props
+    ...props,
   };
   return <Component {...rest} ref={ref} />;
 });
 
-InputBase.displayName = 'InputBase';
+InputBase.displayName = "InputBase";
 
 export default InputBase;

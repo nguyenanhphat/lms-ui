@@ -1,7 +1,7 @@
 ### Simple Panel
 
 ```jsx
-import { Panel } from "@fundoo/ui";
+import { Panel } from "lms-ui";
 
 <Panel>
   <PanelBody>Simple panel</PanelBody>
@@ -11,7 +11,7 @@ import { Panel } from "@fundoo/ui";
 ### Panel with heading
 
 ```jsx
-import { Panel, PanelHeader, PanelBody } from "@fundoo/ui";
+import { Panel, PanelHeader, PanelBody } from "lms-ui";
 
 <Panel>
   <PanelHeader>Panel title</PanelHeader>
@@ -27,7 +27,7 @@ import { Panel, PanelHeader, PanelBody } from "@fundoo/ui";
 ### Panel with sub heading
 
 ```jsx
-import { Panel, PanelHeader, PanelBody, Typography } from "@fundoo/ui";
+import { Panel, PanelHeader, PanelBody, Typography } from "lms-ui";
 
 const panelHeaderStyle = {
   "flex-flow": "column",
@@ -53,7 +53,7 @@ const panelHeaderStyle = {
 ### Panel with footer
 
 ```jsx
-import { Panel, PanelBody, PanelFooter } from "@fundoo/ui";
+import { Panel, PanelBody, PanelFooter } from "lms-ui";
 
 <Panel>
   <PanelBody>
@@ -69,7 +69,7 @@ import { Panel, PanelBody, PanelFooter } from "@fundoo/ui";
 ### Panel with heading and footer
 
 ```jsx
-import { Panel, PanelHeader, PanelBody, PanelFooter } from "@fundoo/ui";
+import { Panel, PanelHeader, PanelBody, PanelFooter } from "lms-ui";
 
 <Panel>
   <PanelHeader>Panel title</PanelHeader>
@@ -86,7 +86,7 @@ import { Panel, PanelHeader, PanelBody, PanelFooter } from "@fundoo/ui";
 ### Panel non-border
 
 ```jsx
-import { Panel, PanelHeader, PanelBody, PanelFooter } from "@fundoo/ui";
+import { Panel, PanelHeader, PanelBody, PanelFooter } from "lms-ui";
 
 <Panel border={false}>
   <PanelHeader>Panel title</PanelHeader>
@@ -112,7 +112,7 @@ import {
   TableBody,
   TableRow,
   TableCell,
-} from "@fundoo/ui";
+} from "lms-ui";
 
 const cellStyle = {
   padding: "1.2rem",
@@ -180,7 +180,7 @@ import {
   Panel,
   PanelHeader,
   PanelBody,
-} from "@fundoo/ui";
+} from "lms-ui";
 
 <Panel>
   <PanelHeader>Panel heading</PanelHeader>
@@ -219,7 +219,7 @@ import {
   PanelBody,
   PanelFooter,
   Typography,
-} from "@fundoo/ui";
+} from "lms-ui";
 
 import Expand from "lms-icons/components/Expand";
 

@@ -1,9 +1,8 @@
 import cn from 'classnames';
 import React, { forwardRef } from 'react';
-import { RadioProps } from '../Radio/Radio';
-import RadioGroupContext from './RadioGroupContext';
-import styles from './styles.module.scss';
-export { default as RadioGroupContext } from './RadioGroupContext';
+import { RadioProps } from '../Radio';
+import Context from './Context';
+export { default as Context } from './Context';
 
 type RadioGroupProps = {
   selected: string | number | boolean;
@@ -22,42 +21,44 @@ interface RadioGroupDefaultProps {
 
 const defaultProps: RadioGroupDefaultProps = {
   component: 'div',
-  disabled: false
+  disabled: false,
 };
 
-export const RadioGroup = forwardRef((props: RadioGroupProps, ref) => {
-  const {
-    component: Component,
-    className,
-    name,
-    disabled,
-    selected,
-    onChange,
-    children,
-    ...rest
-  } = {
-    ...defaultProps,
-    ...props
-  };
+export type RadioGroupComponent = {
+  displayName?: string;
+};
 
-  const classOfComponent = cn(styles.root, className, {
-    [styles.disabled]: disabled
-  });
+export const RadioGroup: RadioGroupComponent = forwardRef(
+  (props: RadioGroupProps, ref) => {
+    const {
+      component: Component,
+      className,
+      name,
+      disabled,
+      selected,
+      onChange,
+      children,
+      ...rest
+    } = {
+      ...defaultProps,
+      ...props,
+    };
 
-  const context: any = {
-    name,
-    disabled,
-    selected,
-    onChange
-  };
+    const classOfComponent = cn(className);
 
-  return (
-    <Component {...rest} ref={ref} className={classOfComponent}>
-      <RadioGroupContext.Provider value={context}>
-        {children}
-      </RadioGroupContext.Provider>
-    </Component>
-  );
-});
+    const context = {
+      name,
+      disabled,
+      selected,
+      onChange,
+    };
+
+    return (
+      <Component {...rest} ref={ref} className={classOfComponent}>
+        <Context.Provider value={context}>{children}</Context.Provider>
+      </Component>
+    );
+  },
+);
 
 export default RadioGroup;

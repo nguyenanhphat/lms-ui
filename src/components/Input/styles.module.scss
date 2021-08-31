@@ -6,40 +6,32 @@
 $input-colors: (
   (
     'primary',
-    $color-grey-100,
-    // $color-grey-25,
+    $color-primary,
     $color-white,
-    $color-grey-700,
-    $color-grey-200
+    $color-black,
+    $color-gray-lv-3
   ),
   (
     'success',
-    $color-green-300,
-    $color-green-50,
-    $color-green-700,
-    $color-green-400
+    $color-success-lighter,
+    $color-success-lightest,
+    $color-success,
+    $color-success-light
   ),
   (
     'warning',
-    $color-orange-300,
-    $color-orange-50,
-    $color-orange-700,
-    $color-orange-400
+    $color-warning-lighter,
+    $color-warning-lightest,
+    $color-warning,
+    $color-warning-light
   ),
   (
     'error',
-    $color-red-300,
-    $color-red-50,
-    $color-red-700,
-    $color-red-400
+    $color-error-lighter,
+    $color-error-lightest,
+    $color-error,
+    $color-error-light
   ),
-  // (
-  //   'light',
-  //   $color-grey-100,
-  //   $color-white,
-  //   $color-grey-700,
-  //   $color-grey-400
-  // )
 );
 
 /**
@@ -62,19 +54,19 @@ $input-transition-property: background-color, color;
   width: 100%;
   overflow: hidden;
   border-radius: $radius-regular;
-  border: 1px solid $color-grey-100;
+  border: 1px solid $color-primary;
   font-size: $font-size-body2;
 
   transition: $input-transition;
   transition-property: $input-transition-property;
 
   & > .input::placeholder {
-    color: $color-grey-500;
+    color: $color-gray-lv-2;
     transition: color 0.1s ease;
   }
 
   & > .input:hover::placeholder {
-    color: $color-grey-500;
+    color: $color-gray-lv-2;
   }
 }
 
@@ -105,7 +97,7 @@ $input-transition-property: background-color, color;
 .disabled {
   background: $color-grey-50;
   border-color: $color-grey-50;
-  color: $color-grey-300;
+  color: $color-gray-lv-3;
 }
 
 .input {

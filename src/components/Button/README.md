@@ -3,7 +3,7 @@
 #### Danger
 
 ```tsx
-import { Button, ButtonColors } from "@fundoo/ui";
+import { Button, ButtonColors } from "lms-ui";
 
 <Button color={ButtonColors.danger} fullWidth={false}>
   Danger
@@ -13,7 +13,7 @@ import { Button, ButtonColors } from "@fundoo/ui";
 #### Primary (default)
 
 ```tsx
-import { Button, ButtonColors } from "@fundoo/ui";
+import { Button, ButtonColors } from "lms-ui";
 
 <Button color={ButtonColors.primary} fullWidth={false}>
   Button
@@ -23,7 +23,7 @@ import { Button, ButtonColors } from "@fundoo/ui";
 #### Secondary
 
 ```tsx
-import { Button, ButtonColors } from "@fundoo/ui";
+import { Button, ButtonColors } from "lms-ui";
 
 <Button color={ButtonColors.secondary} fullWidth={false}>
   Button
@@ -33,7 +33,7 @@ import { Button, ButtonColors } from "@fundoo/ui";
 #### Ghost
 
 ```tsx
-import { Button, ButtonColors } from "@fundoo/ui";
+import { Button, ButtonColors } from "lms-ui";
 
 <Button color={ButtonColors.ghost} fullWidth={false}>
   Button
@@ -43,7 +43,7 @@ import { Button, ButtonColors } from "@fundoo/ui";
 #### Invert
 
 ```tsx
-import { Button, ButtonColors } from "@fundoo/ui";
+import { Button, ButtonColors } from "lms-ui";
 
 <Button color={ButtonColors.invert} fullWidth={false}>
   Button
@@ -53,7 +53,7 @@ import { Button, ButtonColors } from "@fundoo/ui";
 #### Outlined
 
 ```tsx
-import { Button, ButtonColors } from "@fundoo/ui";
+import { Button, ButtonColors } from "lms-ui";
 
 <Grid container spacing={5}>
   <Grid item xs="auto">
@@ -72,7 +72,7 @@ import { Button, ButtonColors } from "@fundoo/ui";
 ### Disabled
 
 ```tsx
-import { Button } from "@fundoo/ui";
+import { Button } from "lms-ui";
 
 <Button fullWidth={false} disabled>
   Button
@@ -82,7 +82,7 @@ import { Button } from "@fundoo/ui";
 ### Loading
 
 ```tsx
-import { Button } from "@fundoo/ui";
+import { Button } from "lms-ui";
 
 <Button fullWidth={false} loading>
   Button
@@ -93,7 +93,7 @@ import { Button } from "@fundoo/ui";
 
 ```tsx
 import { useEffect, useState } from "react";
-import { Button } from "@fundoo/ui";
+import { Button } from "lms-ui";
 
 const [loading, setLoading] = useState(false);
 const onClick = () => {
@@ -118,7 +118,7 @@ useEffect(() => {
 ### Icon Button
 
 ```tsx
-import { Button, ButtonColors } from "@fundoo/ui";
+import { Button, ButtonColors } from "lms-ui";
 import AddCircle from "lms-icons/components/AddCircle";
 import Facebook from "lms-icons/components/Facebook";
 
@@ -140,7 +140,7 @@ import Facebook from "lms-icons/components/Facebook";
 ### Sizes
 
 ```tsx
-import { Grid, Button, ButtonSizes } from "@fundoo/ui";
+import { Grid, Button, ButtonSizes } from "lms-ui";
 
 <>
   <Grid container spacing={2} alignItem="end">
@@ -168,7 +168,7 @@ import { Grid, Button, ButtonSizes } from "@fundoo/ui";
 **Interactive**
 
 ```tsx
-import { Grid, Button, ButtonColors } from "@fundoo/ui";
+import { Grid, Button, ButtonColors } from "lms-ui";
 
 <Grid container spacing={2}>
   <Grid item md={2}>
@@ -189,7 +189,7 @@ import { Grid, Button, ButtonColors } from "@fundoo/ui";
 **Disabled**
 
 ```tsx
-import { Grid, Button, ButtonColors } from "@fundoo/ui";
+import { Grid, Button, ButtonColors } from "lms-ui";
 
 <Grid container spacing={2}>
   <Grid item md={2}>
@@ -218,7 +218,7 @@ import { Grid, Button, ButtonColors } from "@fundoo/ui";
 **Loading**
 
 ```tsx
-import { Grid, Button, ButtonColors } from "@fundoo/ui";
+import { Grid, Button, ButtonColors } from "lms-ui";
 
 <Grid container spacing={2}>
   <Grid item md={2}>
@@ -247,7 +247,7 @@ import { Grid, Button, ButtonColors } from "@fundoo/ui";
 **Icon Button**
 
 ```tsx
-import { Grid, Button, ButtonColors, ButtonSizes } from "@fundoo/ui";
+import { Grid, Button, ButtonColors, ButtonSizes } from "lms-ui";
 import AddCircle from "lms-icons/components/AddCircle";
 import UserFilled from "lms-icons/components/UserFilled";
 
@@ -306,7 +306,7 @@ import UserFilled from "lms-icons/components/UserFilled";
 #### Chip
 
 ```tsx
-import { Button, ButtonColors } from "@fundoo/ui";
+import { Button, ButtonColors } from "lms-ui";
 
 <Grid container spacing={4}>
   <Grid item xs={2}>

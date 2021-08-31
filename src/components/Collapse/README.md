@@ -7,7 +7,7 @@ import {
   PaperRadius,
   Typography,
   TypoWeights,
-} from "@fundoo/ui";
+} from "lms-ui";
 import styles from "./styles.module.scss";
 const [isActive, setIsActive] = React.useState(false);
 import ArrowDown from "lms-icons/components/ArrowDown";

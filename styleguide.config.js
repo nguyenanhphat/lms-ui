@@ -76,14 +76,14 @@ function getComponentPathLine(componentPath) {
     dir.match(/(([\s\S]+)?-)?(([^/]+|[^src]+)\/)?([\s\S]+)\/([\s\S]+)$/) || [];
 
   if (!matches[4] || matches[4] === 'src') {
-    return `import { ${matches[6]} } from '@fundoo/ui'`;
+    return `import { ${matches[6]} } from 'lms-ui'`;
   }
 
   if (matches[4] === 'componse') {
-    return `import ${matches[6]} from '@fundoo/${matches[4]}/components/${matches[6]}'`;
+    return `import ${matches[6]} from 'lms-ui/${matches[4]}/components/${matches[6]}'`;
   }
 
-  return `import { ${matches[6]} } from '@fundoo/${matches[4]}'`;
+  return `import { ${matches[6]} } from '@lms-ui/${matches[4]}'`;
 }
 
 function resolveComponent(name) {
@@ -95,7 +95,7 @@ const propsParser = docGenerator.withCustomConfig('./tsconfig.json').parse;
 
 module.exports = {
   serverPort: 9999,
-  title: 'Fundoo React Lib Component',
+  title: 'LMS React Lib Component',
   version,
   sections,
   getExampleFilename,
@@ -125,9 +125,9 @@ module.exports = {
   webpackConfig,
   pagePerSection: true,
   moduleAliases: {
-    '@fundoo/styles': path.resolve(__dirname, 'src/styles'),
+    'lms-ui/styles': path.resolve(__dirname, 'src/styles'),
     '@App': path.resolve(__dirname, 'src'),
-    '@fundoo/ui/components': path.resolve(__dirname, 'src/components')
+    'lms-ui/components': path.resolve(__dirname, 'src/components')
   },
   context: loadComponent(),
   template: {

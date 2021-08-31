@@ -1,7 +1,7 @@
 ### Basic usage
 
 ```jsx
-import { Paper } from '@fundoo/ui';
+import { Paper } from 'lms-ui';
 
 <Paper>Do something great!</Paper>
 ```
@@ -9,7 +9,7 @@ import { Paper } from '@fundoo/ui';
 ### Radius
 
 ```jsx
-import { Grid, Paper } from '@fundoo/ui';
+import { Grid, Paper } from 'lms-ui';
 
 const paperStyle = {
   padding: '2rem',
@@ -49,7 +49,7 @@ const paperStyle = {
 ### Elevation
 
 ```jsx
-import { Grid, Paper } from '@fundoo/ui';
+import { Grid, Paper } from 'lms-ui';
 
 const paperStyle = {
   padding: '2rem',

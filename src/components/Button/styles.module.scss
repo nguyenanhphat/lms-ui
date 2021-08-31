@@ -92,7 +92,7 @@ $colors: (
   ),
   (
     'ghost',
-    $color-grey-700,
+    $color-gray-lv-2,
     $color-white,
     $color-grey-25,
     $color-grey-50,
@@ -100,7 +100,7 @@ $colors: (
   ),
   (
     'invert',
-    $color-grey-700,
+    $color-gray-lv-2,
     $color-white,
     $color-grey-10,
     $color-grey-25,
@@ -108,7 +108,7 @@ $colors: (
   ),
   (
     'outlined',
-    $color-grey-700,
+    $color-gray-lv-2,
     $color-white,
     $color-grey-10,
     $color-grey-25,
@@ -117,10 +117,10 @@ $colors: (
   (
     'danger',
     $color-white,
-    $color-red-500,
-    $color-red-300,
-    $color-red-500,
-    $color-red-100
+    $color-error,
+    $color-error-lighter,
+    $color-error,
+    $color-error-lightest
   )
 );
 @each $name, $color, $bg-color, $bg-hover, $bg-pressed, $bg-disabled in $colors
@@ -135,10 +135,10 @@ $colors: (
     &.disabled {
       pointer-events: none;
       background-color: $bg-disabled;
-      color: $color-grey-200;
+      color: $color-gray-lv-3;
       .icon,
       .icon path {
-        fill: $color-grey-200;
+        fill: $color-gray-lv-3;
       }
     }
     &:not(.disabled):hover {

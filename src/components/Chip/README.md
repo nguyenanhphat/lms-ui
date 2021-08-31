@@ -3,7 +3,7 @@
 # Chip Example
 
 ```jsx
-import { Grid } from '@fundoo/ui';
+import { Grid } from 'lms-ui';
 import { ChipVariants } from './ChipVariants';
 import { ChipSizes } from './ChipSizes';
 import { ChipColors } from './ChipColors';

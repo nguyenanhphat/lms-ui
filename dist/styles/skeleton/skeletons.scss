@@ -1,7 +1,7 @@
 @mixin skeleton($type: 'wrap', $line: 'sm', $height: 0.6rem) {
   @if ($type == 'wrap') {
     min-height: 12rem;
-    background-color: $color-grey-200;
+    background-color: $color-gray-lv-3;
     margin-top: spacing(4);
     margin-bottom: spacing(4);
   } @else if ($type == 'thumbnail') {

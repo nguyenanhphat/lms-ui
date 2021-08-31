@@ -20,7 +20,7 @@ const handleToast = () => toggleToast(!show);
 ### Toast with timeout
 
 ```jsx
-import { Button, Toast } from "@fundoo/ui";
+import { Button, Toast } from "lms-ui";
 
 const toastTimer = React.useRef(null);
 const [show, toggleToast] = React.useState(false);
@@ -58,7 +58,7 @@ React.useEffect(() => {
 ### Toast with position
 
 ```jsx
-import { Button, Grid, Toast } from "@fundoo/ui";
+import { Button, Grid, Toast } from "lms-ui";
 
 const toastTimer = React.useRef(null);
 const [show, toggleToast] = React.useState(false);
@@ -118,7 +118,7 @@ const gridItemStyle = {
 ### Custom toast
 
 ```jsx
-import { Button, Icon, Toast, Typography } from "@fundoo/ui";
+import { Button, Icon, Toast, Typography } from "lms-ui";
 
 import Star from "lms-icons/components/Star";
 

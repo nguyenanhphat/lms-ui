@@ -4,10 +4,10 @@
   States: name, color.
 */
 $colors: (
-  ('primary', $color-black-500),
-  ('success', $color-green-700),
-  ('warning', $color-orange-700),
-  ('error', $color-red-700)
+  ('primary', $color-primary),
+  ('success', $color-success),
+  ('warning', $color-warning),
+  ('error', $color-error)
 );
 
 .text-field {

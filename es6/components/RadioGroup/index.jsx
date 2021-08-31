@@ -11,29 +11,24 @@ var __rest = (this && this.__rest) || function (s, e) {
 };
 import cn from 'classnames';
 import React, { forwardRef } from 'react';
-import RadioGroupContext from './RadioGroupContext';
-import styles from './styles.module.scss';
-export { default as RadioGroupContext } from './RadioGroupContext';
+import Context from './Context';
+export { default as Context } from './Context';
 const defaultProps = {
     component: 'div',
-    disabled: false
+    disabled: false,
 };
 export const RadioGroup = forwardRef((props, ref) => {
     const _a = Object.assign(Object.assign({}, defaultProps), props), { component: Component, className, name, disabled, selected, onChange, children } = _a, rest = __rest(_a, ["component", "className", "name", "disabled", "selected", "onChange", "children"]);
-    const classOfComponent = cn(styles.root, className, {
-        [styles.disabled]: disabled
-    });
+    const classOfComponent = cn(className);
     const context = {
         name,
         disabled,
         selected,
-        onChange
+        onChange,
     };
     return (<Component {...rest} ref={ref} className={classOfComponent}>
-      <RadioGroupContext.Provider value={context}>
-        {children}
-      </RadioGroupContext.Provider>
-    </Component>);
+        <Context.Provider value={context}>{children}</Context.Provider>
+      </Component>);
 });
 export default RadioGroup;
 //# sourceMappingURL=index.jsx.map

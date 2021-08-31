@@ -46,16 +46,16 @@
 
   .tag {
     color: $color-white;
-    background-color: $color-grey-500;
+    background-color: $color-primary;
   }
 
   &:not(.disabled).activated {
     color: $color-primary;
-    border-bottom: 2px solid $color-red-500;
+    border-bottom: 2px solid $color-primary;
 
     .tag {
       color: $color-white;
-      background-color: $color-red-500;
+      background-color: $color-primary;
     }
 
     &.vertical {
@@ -72,7 +72,7 @@
 
     .tag {
       color: $color-white;
-      background-color: $color-red-500;
+      background-color: $color-primary;
     }
 
     &.horizontal {
@@ -91,7 +91,7 @@
   &.disabled {
     cursor: unset;
     pointer-events: none;
-    color: $color-grey-200;
+    color: $color-gray-lv-3;
     border-bottom: 2px solid transparent;
   }
 

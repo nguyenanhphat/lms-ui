@@ -1,5 +1,5 @@
 ```jsx
-  import { MaterialTabs, MaterialTab } from '@fundoo/ui';
+  import { MaterialTabs, MaterialTab } from 'lms-ui';
 
   const [selectedTab, setSelectedTab] = React.useState(0);
   const tabs = [
@@ -44,7 +44,7 @@
 ### Tab secondary color ( updating... )
 
 ```jsx
-  import { MaterialTabs, MaterialTab } from '@fundoo/ui';
+  import { MaterialTabs, MaterialTab } from 'lms-ui';
 
   const [selectedTab, setSelectedTab] = React.useState(0);
   const tabs = [

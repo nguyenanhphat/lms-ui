@@ -8,7 +8,7 @@ import {
   Typography, 
   TypoTypes,
   Divider 
-} from '@fundoo/ui';
+} from 'lms-ui';
 
 <Panel>
   <PanelBody>

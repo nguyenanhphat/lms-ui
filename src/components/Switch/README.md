@@ -1,7 +1,7 @@
 ## Basic
 
 ```jsx
-import { Switch } from '@fundoo/ui';
+import { Switch } from 'lms-ui';
 
 const [checked, setChecked] = React.useState(false);
 

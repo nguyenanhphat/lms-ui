@@ -1,7 +1,7 @@
 #### Basic
 ```jsx
 
-import { TypoWeights } from '@fundoo/ui';
+import { TypoWeights } from 'lms-ui';
 
 <React.Fragment>
   <Grid container spacing={2} alignItem="end">

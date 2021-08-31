@@ -3,7 +3,7 @@
 #### Basic
 
 ```jsx
-import { Input, InputSizes } from "@fundoo/ui";
+import { Input, InputSizes } from "lms-ui";
 
 <React.Fragment>
   <Grid container spacing={5} alignItem="end">
@@ -26,7 +26,7 @@ import { Input, InputSizes } from "@fundoo/ui";
 #### With adornments
 
 ```jsx
-import { Input, InputAdornment, InputSizes, Icon } from "@fundoo/ui";
+import { Input, InputAdornment, InputSizes, Icon } from "lms-ui";
 import Search from "lms-icons/components/Search";
 
 <React.Fragment>
@@ -82,7 +82,7 @@ import Search from "lms-icons/components/Search";
 ### Status
 
 ```jsx
-import { Input, InputColors } from "@fundoo/ui";
+import { Input, InputColors } from "lms-ui";
 
 <React.Fragment>
   <Grid container spacing={5} alignItem="end">
@@ -105,7 +105,7 @@ import { Input, InputColors } from "@fundoo/ui";
 ### Input Adornments
 
 ```jsx
-import { Input, InputAdornment, Icon } from "@fundoo/ui";
+import { Input, InputAdornment, Icon } from "lms-ui";
 import Search from "lms-icons/components/Search";
 import Folder from "lms-icons/components/Folder";
 

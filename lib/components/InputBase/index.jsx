@@ -44,12 +44,12 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.InputBase = void 0;
 var react_1 = __importStar(require("react"));
 var defaultProps = {
-    component: 'input'
+    component: "input",
 };
 exports.InputBase = react_1.forwardRef(function (props, ref) {
     var _a = __assign(__assign({}, defaultProps), props), Component = _a.component, rest = __rest(_a, ["component"]);
     return <Component {...rest} ref={ref}/>;
 });
-exports.InputBase.displayName = 'InputBase';
+exports.InputBase.displayName = "InputBase";
 exports.default = exports.InputBase;
 //# sourceMappingURL=index.jsx.map

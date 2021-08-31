@@ -5,7 +5,7 @@
 - Required props: `date`, `onChange`
 
 ```jsx
-import { DateTimeRangePicker } from "@fundoo/ui";
+import { DateTimeRangePicker } from "lms-ui";
 const [date, setDate] = React.useState(new Date());
 
 <Calendar date={date} onChange={setDate} />;
@@ -16,7 +16,7 @@ const [date, setDate] = React.useState(new Date());
 #### Placeholder
 
 ```jsx
-import { DateTimeRangePicker } from "@fundoo/ui";
+import { DateTimeRangePicker } from "lms-ui";
 const [date, setDate] = React.useState(null);
 
 <Calendar placeholder="Please select date" date={date} onChange={setDate} />;
@@ -25,7 +25,7 @@ const [date, setDate] = React.useState(null);
 #### Disabled
 
 ```jsx
-import { DateTimeRangePicker } from "@fundoo/ui";
+import { DateTimeRangePicker } from "lms-ui";
 const [date, setDate] = React.useState(null);
 
 <Calendar disabled date={date} onChange={setDate} />;
@@ -34,7 +34,7 @@ const [date, setDate] = React.useState(null);
 #### Readonly
 
 ```jsx
-import { DateTimeRangePicker } from "@fundoo/ui";
+import { DateTimeRangePicker } from "lms-ui";
 const [date, setDate] = React.useState(null);
 
 <Calendar readOnly date={date} onChange={setDate} />;
@@ -45,7 +45,7 @@ const [date, setDate] = React.useState(null);
 #### Format Date
 
 ```jsx
-import { DateTimeRangePicker } from "@fundoo/ui";
+import { DateTimeRangePicker } from "lms-ui";
 const [date, setDate] = React.useState(null);
 const dateFormat = "yyyy/MM/dd";
 
@@ -58,7 +58,7 @@ const dateFormat = "yyyy/MM/dd";
 - Default max date: 100 years before the current date .
 
 ```jsx
-import { DateTimeRangePicker } from "@fundoo/ui";
+import { DateTimeRangePicker } from "lms-ui";
 import { startOfDay, endOfDay, addDays } from "date-fns";
 
 const [date, setDate] = React.useState(null);
@@ -73,8 +73,8 @@ const maxDate = endOfDay(addDays(minDate, 2));
 #### Extra small
 
 ```jsx
-import { DateTimeRangePicker } from "@fundoo/ui";
-import { InputSizes } from "@fundoo/ui";
+import { DateTimeRangePicker } from "lms-ui";
+import { InputSizes } from "lms-ui";
 
 const [date, setDate] = React.useState(null);
 const dateFormat = "yyyy/MM/dd";
@@ -90,8 +90,8 @@ const dateFormat = "yyyy/MM/dd";
 #### Small
 
 ```jsx
-import { DateTimeRangePicker } from "@fundoo/ui";
-import { InputSizes } from "@fundoo/ui";
+import { DateTimeRangePicker } from "lms-ui";
+import { InputSizes } from "lms-ui";
 
 const [date, setDate] = React.useState(null);
 const dateFormat = "yyyy/MM/dd";
@@ -107,7 +107,7 @@ const dateFormat = "yyyy/MM/dd";
 #### Medium
 
 ```jsx
-import { DateTimeRangePicker, InputSizes } from "@fundoo/ui";
+import { DateTimeRangePicker, InputSizes } from "lms-ui";
 
 const [date, setDate] = React.useState(null);
 const dateFormat = "yyyy/MM/dd";
@@ -123,7 +123,7 @@ const dateFormat = "yyyy/MM/dd";
 #### Large
 
 ```jsx
-import { InputSizes } from "@fundoo/ui";
+import { InputSizes } from "lms-ui";
 
 const [date, setDate] = React.useState(null);
 const dateFormat = "yyyy/MM/dd";
@@ -139,7 +139,7 @@ const dateFormat = "yyyy/MM/dd";
 ### Custom icon
 
 ```jsx
-import { InputSizes } from "@fundoo/ui";
+import { InputSizes } from "lms-ui";
 import CalendarIcon from "lms-icons/components/Calendar";
 
 const [date, setDate] = React.useState(null);
@@ -157,7 +157,7 @@ const dateFormat = "yyyy/MM/dd";
 ### Custom before input
 
 ```jsx
-import { DateTimeRangePicker, InputAdornment } from "@fundoo/ui";
+import { DateTimeRangePicker, InputAdornment } from "lms-ui";
 import CalendarIcon from "lms-icons/components/Calendar";
 
 const [date, setDate] = React.useState(null);

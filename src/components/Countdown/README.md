@@ -2,7 +2,7 @@
 #### Note: Only support for maximum 1 year.
 
 ```jsx
-  import { Grid, InputSizes, TypoWeights } from '@fundoo/ui';
+  import { Grid, InputSizes, TypoWeights } from 'lms-ui';
   import { useState } from 'react';
 
   const [time, setTime] = useState(1700488888);

@@ -3,11 +3,11 @@
 .item {
   cursor: pointer;
   padding: spacing(2);
-  color: $color-grey-500;
+  color: $color-gray-lv-2;
   transition: all 0.1s ease;
 
   &:hover {
-    background: $color-grey-500;
+    background: $color-gray-lv-2;
     color: $color-white;
 
     .name {

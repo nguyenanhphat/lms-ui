@@ -5,7 +5,7 @@
   import {
     TypoSizes,
     TypoWeights
-  } from '@fundoo/ui';
+  } from 'lms-ui';
 
 
 <Grid container spacing={5} direction="column">

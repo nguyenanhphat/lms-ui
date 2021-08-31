@@ -1,5 +1,5 @@
 ```jsx
-import { InputSizes, TypoWeights } from '@fundoo/ui';
+import { InputSizes, TypoWeights } from 'lms-ui';
 import styles from './styles.module.scss';
 import React, { useState } from 'react';
 

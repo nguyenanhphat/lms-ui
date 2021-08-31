@@ -3,14 +3,14 @@
 ### Simple Checkbox
 
 ```jsx
-import { Checkbox } from "@fundoo/ui";
+import { Checkbox } from "lms-ui";
 <Checkbox />;
 ```
 
 ### Checkbox with label
 
 ```jsx
-import { Checkbox } from "@fundoo/ui";
+import { Checkbox } from "lms-ui";
 
 <Checkbox>Label</Checkbox>;
 ```
@@ -18,7 +18,7 @@ import { Checkbox } from "@fundoo/ui";
 ### Controlled Checkbox
 
 ```jsx
-import { Checkbox } from "@fundoo/ui";
+import { Checkbox } from "lms-ui";
 const [isChecked, setIsChecked] = React.useState(false);
 
 const handleCheck = (event) => {
@@ -38,7 +38,7 @@ const handleCheck = (event) => {
 #### Disabled
 
 ```jsx
-import { Checkbox } from "@fundoo/ui";
+import { Checkbox } from "lms-ui";
 
 <Checkbox disabled>Disabled</Checkbox>;
 ```
@@ -46,7 +46,7 @@ import { Checkbox } from "@fundoo/ui";
 #### Checked
 
 ```jsx
-import { Checkbox } from "@fundoo/ui";
+import { Checkbox } from "lms-ui";
 
 <Checkbox checked>Checked</Checkbox>;
 ```
@@ -54,7 +54,7 @@ import { Checkbox } from "@fundoo/ui";
 #### Checked and disabled
 
 ```jsx
-import { Checkbox } from "@fundoo/ui";
+import { Checkbox } from "lms-ui";
 
 <Checkbox checked disabled>
   Checked and disabled
@@ -64,7 +64,7 @@ import { Checkbox } from "@fundoo/ui";
 #### Indeterminate
 
 ```jsx
-import { Checkbox } from "@fundoo/ui";
+import { Checkbox } from "lms-ui";
 
 <Checkbox isIntermediate checked>
   Indeterminate
@@ -74,7 +74,7 @@ import { Checkbox } from "@fundoo/ui";
 #### Indeterminate and disabled
 
 ```jsx
-import { Checkbox } from "@fundoo/ui";
+import { Checkbox } from "lms-ui";
 
 <Checkbox isIntermediate checked disabled>
   Indeterminate and disabled

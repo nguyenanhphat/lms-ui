@@ -1,6 +1,6 @@
 {
   "name": "lms-ui",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "main": "dist/index.js",
   "license": "UNLICENSED",
   "files": [
@@ -17,7 +17,7 @@
     "build:es6": "tsc --module es2015 --target es2015 --outDir es6",
     "build:cjs": "tsc --module commonjs --target es5 --outDir lib",
     "build:umd": "cross-env NODE_ENV=production webpack --config webpack.prod.js",
-    "start": "http-server ./styleguide -g --cors",
+    "start": "http-server ./styleguide -g --cors -p 8080",
     "lint": "eslint --ignore-path .gitignore",
     "lint:fix": "eslint --ignore-path .gitignore --fix",
     "test": "cross-env NODE_ENV=test jest --runInBand",
@@ -161,10 +161,6 @@
   },
   "directories": {
     "doc": "docs"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://git-codecommit.ap-southeast-1.amazonaws.com/v1/repos/fundoo-ui"
   },
   "keywords": [],
   "author": "",

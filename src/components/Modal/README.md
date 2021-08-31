@@ -9,7 +9,7 @@ import {
   Typography,
   TypoWeights,
   TypoSizes
-} from '@fundoo/ui';
+} from 'lms-ui';
 
 const [open, toggleModal] = React.useState(false);
 const handleCloseModal = () => toggleModal(false);
@@ -54,7 +54,7 @@ import {
   Typography,
   TypoWeights,
   TypoSizes
-} from '@fundoo/ui';
+} from 'lms-ui';
 
 const [open, toggleModal] = React.useState(false);
 const handleCloseModal = () => toggleModal(false);
@@ -102,7 +102,7 @@ import {
   Typography,
   TypoWeights,
   TypoSizes
-} from '@fundoo/ui';
+} from 'lms-ui';
 
 const [open, toggleModal] = React.useState(false);
 const handleCloseModal = () => toggleModal(false);
@@ -167,7 +167,7 @@ import {
   Typography,
   TypoWeights,
   TypoSizes
-} from '@fundoo/ui';
+} from 'lms-ui';
 
 const [open, toggleModal] = React.useState(false);
 const handleCloseModal = () => toggleModal(false);
@@ -233,7 +233,7 @@ import {
   Typography,
   TypoWeights,
   TypoSizes
-} from '@fundoo/ui';
+} from 'lms-ui';
 
 const [open, toggleModal] = React.useState(false);
 const handleCloseModal = () => toggleModal(false);
@@ -297,7 +297,7 @@ import {
   Typography,
   TypoWeights,
   TypoSizes
-} from '@fundoo/ui';
+} from 'lms-ui';
 import styles from './example.module.scss';
 
 const [open, toggleModal] = React.useState(false);
